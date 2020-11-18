@@ -20,19 +20,54 @@ xaringanExtra::use_webcam ()
 library(tidyverse)
 library(knitr)
 library(emo)
+library(data.table)
 ```
 ```{r xaringan-panelset, echo=FALSE}
 xaringanExtra::use_panelset()
 ```
+```{r, include=FALSE}
+df <- fread("data/caso.csv",
+            encoding = "UTF-8")
 
-class: center, middle
+dfCity <- df %>%
+          filter(place_type == "city") %>% 
+          arrange(city)
 
+
+dfState <- df %>%
+          filter(place_type == "state") %>% 
+          arrange(state)
+
+dfStateLast <- dfState %>% 
+  filter(is_last == TRUE)
+```
+
+
+# Orientador
+
+.center[
+
+Professor Doutor Fernando de Souza Bastos
+]
+
+# Apoio
+
+.center[
 ```{r cnpq, echo=FALSE, out.width='75%'}
 knitr::include_graphics('img/pibic_cnpq.jpg')
 ```
+]
+
 ---
 # Covid-19 (SARS-CoV-2)
 
+.center[
+```{r sarsCoV2, echo=FALSE, out.width='60%'}
+knitr::include_graphics('img/sarsCoV2.jpg')
+```
+]
+
+**Fonte:** [Journal of Medical Virology](https://onlinelibrary.wiley.com/doi/full/10.1002/jmv.25685)
 
 ---
 # Covid-19 (SARS-CoV-2)
@@ -41,19 +76,19 @@ knitr::include_graphics('img/pibic_cnpq.jpg')
 
 --
 
-  - Febre
+- Febre
   
-  - Tosse seca
+- Tosse seca
   
-  - Cansaço
+- Cansaço
   
-  - Outros sintomas menos comuns:
+- Outros sintomas menos comuns:
   
-    * Perda de paladar ou olfato
+  * Perda de paladar ou olfato
     
-    * Dor de cabeça
+  * Dor de cabeça
     
-    * Dor de garganta
+  * Dor de garganta
 
 **Fonte:** [OMS](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public)
 
@@ -64,19 +99,15 @@ knitr::include_graphics('img/pibic_cnpq.jpg')
 
 --
 
-  - .justify[
-  A transmissão ocorre pelo ar, ou por contato pessoal, através de secreções contaminadas.
-  ]
+- .justify[
+A transmissão ocorre pelo ar, ou por contato pessoal, através de secreções contaminadas.
+]
   
 --
 
-  - .justify[
-  Devido ao modo de transmissão vários lugares do mundo decretaram isolamento social já que até o momento não há medicamento para o combate e enfrentamento
-  da doença.
-  ]
-  </p>
-  
-  
+- .justify[
+Devido ao modo de transmissão vários lugares do mundo decretaram isolamento social já que até o momento não há medicamento para o combate e enfrentamento da doença.
+]
   
 **Fonte:** [OMS](https://www.who.int/news-room/q-a-detail/coronavirus-disease-covid-19-how-is-it-transmitted#:~:text=COVID%2D19%20is%20caused%20by,speak%2C%20sing%20or%20breathe%20heavily.)
 
@@ -129,7 +160,11 @@ knitr::include_graphics('img/govDashboard.png')
 **Fonte:** [Governo Federal do Brasil](https://covid.saude.gov.br/)
   ]
   .panel[.panel-name[CoronaBR]
-  
+.center[
+```{r CoronaBR, echo=FALSE, out.width='75%'}
+knitr::include_graphics('img/CoronaBR.jpg')
+```
+]
 
 **Fonte:** [CoronaBR](https://github.com/fsbmat-ufv/CoronaBR)
   ]
@@ -139,7 +174,7 @@ knitr::include_graphics('img/govDashboard.png')
 knitr::include_graphics('img/omsDashboard.png')
 ```
 ] 
-  
+
 **Fonte:** [OMS](https://covid19.who.int/)
   ]
   .panel[.panel-name[Jhon Hopkins]
@@ -158,16 +193,56 @@ knitr::include_graphics('img/jhDashboard.png')
 
 .panelset[
   .panel[.panel-name[1]
-  
+.center[
+```{r, echo=FALSE, fig.width= 7, fig.height= 5, fig.retina=3}
+dfState %>%
+  filter(state == "MG") %>%
+  ggplot(aes(x = date,
+             y = confirmed)
+  ) +
+  geom_line(color = "#0786db", lwd = 1.2) +
+  xlab("Data") +
+  ylab("Número de Casos Confirmados") +
+  ggtitle('Gráfico de linhas do número de casos confirmados no estado de Minas Gerais')
+```
+]
   ]
   .panel[.panel-name[2]
-  
+  .center[
+```{r, echo=FALSE, fig.width= 7, fig.height= 5, fig.retina=3}
+dfState %>%
+  filter(state == "MG") %>%
+  ggplot(aes(x = date,
+             y = deaths)
+  ) +
+  geom_line(color = "#0786db", lwd = 1.2) +
+  xlab("Data") +
+  ylab("Número de Óbitos") +
+  ggtitle('Gráfico de linhas do número de óbitos no estado de Minas Gerais')
+```
+]
   ]
   .panel[.panel-name[3]
-  
+.center[
+```{r, echo=FALSE, fig.width=7, fig.height= 5, fig.retina=3}
+dfState %>% 
+  filter(is_last == TRUE) %>%
+  top_n(n = 10, confirmed) %>% 
+  ggplot(aes(x = reorder(state, -confirmed), 
+             y = confirmed)) +
+  geom_col(fill = "#0786db", color = "black") +
+  xlab("Estado") +
+  ylab("Número de Casos Confirmados") +
+  ggtitle('Gráfico de barras comparando os 10 maiores números de casos\n confirmados por Estado no Brasil')
+```
+]
   ]
   .panel[.panel-name[4]
-  
+.center[
+```{r map, echo=FALSE, out.width='75%'}
+knitr::include_graphics('img/map.png')
+```
+]
   ]
 ]
 
@@ -181,6 +256,7 @@ knitr::include_graphics('img/shiny.png')
 ]
 
 Você pode acessar [clicando aqui.](https://guilhermefco.shinyapps.io/CovidInBrazil/)
+
 ---
 # Modelo TCC
 
@@ -226,19 +302,6 @@ Será lançado em breve. `r emo::ji("smile")`
 class: center, middle
 
 # Agradecimentos
-
-
---
-
-<h3>Fernando de Souza Bastos<h3/>
-
---
-
-<h3>A todos que me apoiam, e que me ajudam diariamente nessa caminhada!<h3/>
-
---
-
-<h3>Semat<h3/>
 
 ---
 class: center, middle, inverse

@@ -38,19 +38,24 @@ E esses slides vão estar disponíveis no link na descrição do vídeo.
 
 10º Slide
 
-Outro resultado que já obtivemos, estudando a linguagem latéx em conjunto ao R
-Foi possível criar um modelo para ser utilizado na escrita do TCC da UFV
-Ao final será disponibilizado não só o modelo, mas também um manual para auxiliar
-a utilização desde a instalação dos softwares até a geração do pdf.
+Outro resultado que já obtivemos, estudando a linguagem latéx em conjunto ao R,
+que foi criar um modelo para ser utilizado na escrita do TCC da UFV.
+Ao final do projeto ele será disponibilizado em conjuto com um manual para auxiliar
+a instalação dos softwares, a utilização até o momento da postagem do site
+e a geração do pdf.
 
 11º Slide
 
 Primeiramente queria agradecer ao meu orientador Fernando de Souza Bastos por sempre
 estar me ajudando em qual seja o assunto ou dificuldade, a aprender cada vez mais sobre o 
 R e sua comunidade, e pela consideração que tem comigo e todos os seus alunos.
+
+Queria agradecer os meus amigos e minha família que sempre me apoiam e estão ao meu lado.
+
 Também queria agradecer a oportunidade que a SEMAT me deu para apresentar o meu projeto,
-e a todos os participantes.
+e a todos que estão assistindo.
 
 12º Slide
+
 
 Fim
