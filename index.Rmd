@@ -12,6 +12,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+    in_header: "favicon.html"
 ---
 ```{r, include=FALSE}
 xaringanExtra::use_webcam ()
