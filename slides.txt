@@ -33,11 +33,28 @@ Os sintomas de quem está infectado são:
     - Dor de cabeça
     - Dor de garganta
 
-Estes são alguns dos sintomas, existem outros menos comuns que podem ser 
-encontrados acessando a fonte.
+Estes são alguns dos sintomas, existem outros que podem ser encontrados 
+acessando a fonte.
 
 6º Slide
 
+A transmissão ocorre pelo ar, ou por contato pessoal, através de secreções
+contaminadas.
+Devido ao modo de transmissão vários lugares do mundo decretaram isolamento
+social visto que até o momento não há medicamento para o combate e enfrentamento
+da doença.
+
+7º Slide
+
+Para podermos estudar o que a doença está causando no Brasil e no mundo precisamos
+ter um local para armazenar os dados. Hoje o Governo Federal armazena estes dados
+no openDataSUS, lá você pode encontrar os dados de em um arquivo para cada estado.
+<Seta para direita>
+Outro local que fornece dados da COVID 19 é o site Brasil.io, este mantido
+através do trabalho de forma voluntária de dezenas de pessoas que diariamente 
+compilam os boletins epidemiológicos das secretarias de saúde do Brasil de
+forma manual, este, fornece dados das cidades e dos estados do Brasil.
+<Seta para direita>
 
 9º Slide
 
