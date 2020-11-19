@@ -6,13 +6,14 @@ institute: "Universidade Federal de Viçosa - Campus UFV Florestal"
 date: "`r format(Sys.Date(), '%d/%m/%Y')`"
 output:
   xaringan::moon_reader:
+    includes:
+      in_header: "favicon.html"
     css: ["./style/semat.css", "./style/default-fonts.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-    in_header: "favicon.html"
 ---
 ```{r, include=FALSE}
 xaringanExtra::use_webcam ()
