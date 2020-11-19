@@ -86,9 +86,9 @@ próprio banco de dados.
 9º Slide
 
 O objetivo principal é estudar os dados da Covid19, e de outras doenças para
-fazer comparações e assim construir relatorios dinamicos e interativos sobre a covid19
-e assim gerar informaçoes confiaveis, objetivas e de facil acesso para a 
-populaçao, para a comunidade cientifica e para gestores publicos
+fazer comparações e assim construir relatorios dinamicos e interativos sobre a 
+covid19 dessa forma gerando informaçoes confiaveis, objetivas e de facil acesso
+para a populaçao, para a comunidade cientifica e para gestores publicos
 sobre o desenvolvimento diario da pandemia.
 
 10º Slide
