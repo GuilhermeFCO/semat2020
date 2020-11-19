@@ -17,6 +17,11 @@ a, a > code {
   text-align: justify;
 }
 
+#middle {
+  text-align: center;
+  vertical-align: middle;
+}
+
 .footnote {
   position: absolute;
   bottom: 3em;
