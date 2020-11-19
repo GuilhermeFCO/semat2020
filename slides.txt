@@ -1,20 +1,28 @@
 1º Slide
 
-Olá a todos, meu nome é Guilherme Fernandes e neste vídeo
-será apresentado o projeto, Análise Descritiva e Comparativa da Covid-19
+Olá a todos, meu nome é Guilherme Fernandes e este vídeo está sendo produzido
+para oitava semana da matematica da universidade federal de viçosa campus 
+florestal onde será apresentado o projeto, 
+Análise Descritiva e Comparativa da Covid-19.
 
 2º Slide
 
-O orientador do projeto e o professor Doutor Fernando de Souza Bastos
-E sou bolsista do Pibic/Cnpq.
+Para acessar os slides você pode acessar o link ou ler o qr code com um
+dispositivo móvel ou acessar o link que está aparecendo agora no canto superior
+direito e também estou deixando o link na descrição desse vídeo.
 
 3º Slide
 
-Em 11 de março de 2020, a Organização Mundial da Saúde (OMS) declarou uma
-pandemia por causa da doença Covid-19, esta uma doença respirátoria causada
-pelo vírus SARS-CoV-2
+O orientador desse projeto é o professor Doutor Fernando de Souza Bastos.
+O projeto foi aprovado no edital PIBIC/CNPq e fica os meus agradecimentos a 
+CNPq e a UFV pela oportunidade.
 
 4º Slide
+
+Em 11 de março de 2020, a Organização Mundial da Saúde (OMS) declarou uma
+pandemia por causa da doença Covid-19, está, causada pelo vírus SARS-CoV-2
+
+5º Slide
 
 Os sintomas de quem está infectado são:
   * Febre
@@ -25,9 +33,10 @@ Os sintomas de quem está infectado são:
     - Dor de cabeça
     - Dor de garganta
 
-Existem outros sintomas segundo a OMS, que pode ser acessado clicando em cima da fonte.
+Estes são alguns dos sintomas, existem outros menos comuns que podem ser 
+encontrados acessando a fonte.
 
-5º Slide
+6º Slide
 
 
 9º Slide

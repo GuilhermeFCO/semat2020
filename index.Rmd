@@ -95,8 +95,6 @@ knitr::include_graphics('img/sarsCoV2.jpg')
 
 <h3>Sintomas</h3>
 
---
-
 - Febre
   
 - Tosse seca
@@ -118,14 +116,11 @@ knitr::include_graphics('img/sarsCoV2.jpg')
 
 <h3>Transmissão</h3>
 
---
 
 - .justify[
 A transmissão ocorre pelo ar, ou por contato pessoal, através de secreções contaminadas.
 ]
-  
---
-
+ 
 - .justify[
 Devido ao modo de transmissão vários lugares do mundo decretaram isolamento social já que até o momento não há medicamento para o combate e enfrentamento da doença.
 ]
