@@ -205,6 +205,11 @@ knitr::include_graphics('img/jhDashboard.png')
 ]
 
 ---
+class: middle, center, inverse
+
+# Objetivos
+
+---
 # Gráficos
 
 .panelset[
