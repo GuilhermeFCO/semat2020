@@ -101,7 +101,7 @@ knitr::include_graphics('img/sarsCoV2.jpg')
   
 - Cansaço
 
-- Falta de ar
+- Dificuldade de respirar
   
 - Outros sintomas menos comuns:
   
