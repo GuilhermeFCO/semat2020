@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 1º Slide
 
 Olá a todos, meu nome é Guilherme Fernandes e este vídeo está sendo produzido
@@ -27,16 +31,16 @@ a CNPq e a UFV pela oportunidade.
 
 Em 11 de março de 2020, a Organização Mundial da Saúde (OMS) declarou uma
 pandemia por causa da doença Covid-19, está, causada pelo vírus SARS-CoV-2,
-que apresenta um quadro clinico que varia de infecçoes assintomaticas a quadros
-respiratorios graves.
+que apresenta um quadro clinico que varia de infecçoes assintomaticas a 
+quadros respiratorios graves.
 
 5º Slide
 
-Os sintomas de quem está infectado são:
+Os sintomas de quem está infectado pela doença são:
   * Febre
   * Tosse seca
   * Cansaço
-  * Outros sintomas menos comuns são:
+  * Outros sintomas menos comuns como:
     - Perda de paladar ou olfato
     - Dor de cabeça
     - Dor de garganta
@@ -46,102 +50,126 @@ existem outros sintomas que podem ser encontrados acessando a fonte.
 6º Slide
 
 A transmissão ocorre pelo ar, ou por contato pessoal, através de secreções
-contaminadas. e Devido ao modo de transmissão vários lugares do mundo decretaram
-isolamento social visto que até o momento não há medicamento para o combate e 
-enfrentamento da doença.
+contaminadas. e Devido ao modo de transmissão vários lugares do mundo 
+decretaram isolamento social visto que até o momento não há medicamento
+para o combate e enfrentamento da doença.
 
 7º Slide
 
-Para podermos estimar os danos em diversas áreas que a doença está causando no 
-Brasil e no mundo precisamos ter um local para armazenar os dados e assim fazer
-estudos sobre. Hoje o Governo Federal armazena estes dados
-no openDataSUS, lá você pode encontrar arquivos com dados separados por estado.
+Para podermos estimar os danos em diversas áreas que a doença está 
+causando no Brasil e no mundo precisamos ter um local para armazenar os
+dados e assim fazer estudos. 
+
+Hoje o Governo Federal armazena estes dados no openDataSUS, lá você 
+pode encontrar arquivos com dados separados por estado.
 <Seta para direita>
-Outro local que fornece dados da COVID 19 é o site Brasil.io, este mantido
-através do trabalho de forma voluntária de dezenas de pessoas que diariamente 
-compilam os boletins epidemiológicos das secretarias de saúde do Brasil de
-forma manual, este, fornece dados das cidades e dos estados do Brasil.
+
+Outro local que fornece dados da COVID 19 é o site Brasil.io, 
+este mantido através do trabalho de forma voluntária de dezenas
+de pessoas que diariamente compilam os boletins epidemiológicos 
+das secretarias de saúde do Brasil de forma manual, este, fornece
+dados das cidades e dos estados do Brasil.
 <Seta para direita>
-Quando procuramos um banco de dados que contém dados do mundo todo, encontramos
-a da universidade jhon hopkins situada na cidade Baltimore, Estados Unidos.
+
+Quando procuramos um banco de dados que contém dados do mundo todo,
+encontramos a da universidade jhon hopkins situada na cidade de
+Baltimore, Estados Unidos.
 
 8º Slide
 
-Uma das melhores formas de apresentar os dados de forma visual é através de
-dashboards, trouxe exemplos já existentes, o primeiro é o do governo federal,
-este contendo gráficos, mapas e tabelas com dados do Brasil.
+Uma das melhores formas de apresentar os dados de forma visual
+é através de dashboards, trouxe alguns exemplos já existentes,
+o primeiro é o do governo federal, este contendo gráficos, mapas
+e tabelas com dados do Brasil.
 <seta para direita>
-Outro exemplo com dados do Brasil é o aplicativo CoronaBR, esse criado pelo
-meu orientador, e trazia como diferencial a estimação de casos recuperados
-e também um modelo preditivo. Hoje para acessa-lo você pode baixar o repositório
-do github e rodar ele na sua própria máquina.
+
+Outro exemplo com dados do Brasil é o aplicativo CoronaBR, este
+foi criado pelo meu orientador, Fernando, que trazia como diferencial
+a estimação de casos recuperados e também um modelo preditivo. 
+Hoje para acessa-lo você pode baixar o repositório do github e rodar
+ele na sua própria máquina.
 <seta para direita>
-Agora quando se trata de dados do mundo existe o dashboard da OMS, nele você
-encontra comparações entre paises, número de testes, tamanho populacional e
-diversas outras informações.
+
+Agora quando se trata de dados do mundo existe o dashboard da OMS,
+nele você encontra comparações entre paises, número de testes,
+tamanho populacional e diversas outras informações.
 <seta para direita>
-A universidade Jhon Hopkins também possui um dashboard criado utilizando o seu
-próprio banco de dados.
+
+A universidade Jhon Hopkins também possui um dashboard criado 
+utilizando o seu próprio banco de dados.
 
 9º Slide
 
-O objetivo principal é estudar os dados da Covid19, e de outras doenças para
-fazer comparações e assim construir relatorios dinamicos e interativos sobre a 
-covid19 dessa forma gerando informaçoes confiaveis, objetivas e de facil acesso
-para a populaçao, para a comunidade cientifica e para gestores publicos
-sobre o desenvolvimento diario da pandemia.
+O objetivo principal do projeto é estudar os dados da Covid19,
+e de outras doenças para fazer comparações e assim construir
+relatorios dinamicos e interativos sobre a covid19.
+Dessa forma gerando informaçoes confiaveis, objetivas e de facil
+acesso para a populaçao, para a comunidade cientifica e para
+gestores publicos sobre o desenvolvimento diario da pandemia.
 
 10º Slide
 
-Trouxe aqui alguns gráficos construidos atraves do software R mostrando
-o número de casos confirmados acumulados no estado de MG. Nele é possível 
-perceber como a curva é parecida como uma função exponencial e como assusta
-o número de casos ja confirmados que chega proximo a 4 milhões.
+Trouxe aqui alguns gráficos construidos atraves do software R
+mostrando o número de casos confirmados acumulados no estado de MG.
+Nele é possível perceber como a curva se parece como uma função 
+exponencial e como assusta o número de casos ja confirmados que chega
+proximo de 4 milhões.
 <seta para direita>
-Este gráfico informa o número de óbitos ao decorrer do tempo, e infelizmente
-em MG já são quase 10 mil mortos.
+
+Este outro gráfico informa o número de óbitos ao decorrer do tempo,
+e infelizmente em MG já são quase 10 mil mortos.
 <seta para direita>
-Outra visualização que podemos ter é um gráfico de barras comparando os 10 estados
-com maiores números de casos confimados, como pode se perceber os estado de são
-paulo se destaca em relação aos outros estados, e daí poderiamos pensar em fazer
-um estudo para responder algumas perguntas, será que estão respeitando o isolamento
-social? qual o motivo para essa diferença?
+
+Outra visualização que podemos ter é um gráfico de barras comparando
+os 10 estados com maiores números de casos confimados, como pode se
+perceber o estado de são paulo se destaca em relação aos outros estados,
+e daí poderiamos pensar em fazer um estudo para responder algumas 
+perguntas como, 
+será que os habitantes de São Paula estão respeitando o isolamento social?
+Qual o motivo para tal diferença?
 <seta para direita>
-Este é mais uma das formas de visualização é atraves de um mapa, onde os estados
-que estam coloridos com um tom de azul mais escuro possuem um maior número de casos
-do que os com tom mais claro.
+
+Este é mais uma das formas de visualização é atraves de um mapa,
+onde os estados que estam coloridos com um tom de azul mais escuro
+possuem um maior número de casos confirmados do que os com tom mais claro.
 
 11º Slide
 
-Todos estes gráficos interativos podem ser acessados ne um aplicativo shiny,
-Este construido com o critério de estudo, ou seja, não é o modelo final que será
-entregue na finalização do projeto. O link deste dashboard está no slide.
+Todos estes gráficos interativos podem ser acessados ne um aplicativo
+shiny.
+Este construido com o critério de estudo, ou seja, não é o modelo final
+que será entregue na finalização do projeto.
+O link deste dashboard está no slide.
 
 12º Slide
 
-Outro resultado que já obtivemos, estudando a linguagem latéx em conjunto ao R,
-foi um modelo criado para ser utilizado na escrita do TCC da UFV.
+Outro resultado que já obtivemos, estudando a linguagem latéx
+em conjunto ao R, foi um modelo criado para ser utilizado na escrita
+do TCC da UFV.
 Ao final do projeto ele será disponibilizado em conjuto ha um manual
-para auxiliar desde a instalação dos softwares, <seta para direita>
+para auxiliar desde a instalação dos softwares,
+<seta para direita>
 a utilização, até o momento da postagem do site e a geração do pdf.
 
 13º Slide
 
-Bom primeiramente queria agradecer ao meu orientador Fernando de Souza Bastos por sempre
-estar me ajudando em qualquer que seja o assunto ou dificuldade, a aprender cada vez mais sobre o 
-R e sua comunidade, e pela consideração que tem comigo e todos os seus alunos.
-
-Queria agradecer os meus amigos e meus famíliares que sempre me apoiam e estão 
-ao meu lado a qualquer momento que eu preciso e me dão forças para continuar.
+Bom primeiramente queria agradecer ao meu orientador
+Fernando de Souza Bastos por sempre estar me ajudando em qualquer
+que seja o assunto ou dificuldade, a aprender cada vez mais sobre o 
+R e sua comunidade, e pela consideração que tem comigo e todos os seus
+alunos.
+Queria agradecer os meus amigos e meus famíliares que sempre me apoiam
+e estão ao meu lado a qualquer momento que eu preciso e me dão forças
+para continuar em frente.
 
 Também queria agradecer a oportunidade e o espaço que a SEMAT deu para 
-apresentar o meu projeto, e a todos que estão assistindo.
+apresentação do projeto, e a todos que estão assistindo.
 
 14º Slide
 
-Deixo aqui meu email, e minhas redes sociais caso alguem queira entrar em
-contato para discutir algum assunto ou alguma dúvida.
+Deixo aqui meu email, e minhas redes sociais caso alguem queira 
+entrar em contato para discutir algum assunto ou alguma dúvida.
 
 15º Slide
 
-Obrigado
+Obrigado a todos que asistiram até aqui!
